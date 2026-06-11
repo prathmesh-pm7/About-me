@@ -121,6 +121,42 @@
                 padding: 10px;
                 font-size: 20px;
             }
+            .image-me{
+                width: 140px;
+                border-radius: 400px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            .my-name{
+                display: inline-block;
+                padding: 20px;
+                background: linear-gradient(
+                45deg,
+                rgba(255, 255, 0, 0.336), 
+                rgba(255, 177, 61, 0.815)
+                );
+                border-radius: 30px;
+                height:300px;  
+            }
+            .my-name:hover{
+                transform: translateY(-6px);
+                transition: 0.3s;
+            }
+            .name{
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+                margin: 0px;
+            }
+            .work{
+                text-align: center;
+                line-height: 0.8cm;
+                margin: 0px;
+                color:rgba(0, 0, 0, 0.507);
+            }
+            .learning{
+                font-size: 20px;
+            }
         </style>
     </head>
     <body>
@@ -136,6 +172,18 @@
             </p>
         </div>
         <div class="cards">
+            <div class="my-name">
+                <img src="images\WIN_20260611_22_40_39_Pro.jpg" class="image-me">
+                <p class="name">
+                    Prathmesh Masurkar
+                </p>
+                <p class="work">
+                    Aspiring Frontend Developer
+                </p>
+                <p class="learning">
+                    Learning HTML, CSS,<br> JavaScript, and building <br>projects every day.
+                </p>
+            </div>
             <div class="Myself">
                 <p class="me-heading">
                     Aspiring Frontend Developer
@@ -151,7 +199,7 @@
                 <ul class="skills-point">
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Javacript</li>
+                    <li>JavaScript</li>
                     <li>Python</li>
                     <li>Git</li>
                 </ul>
